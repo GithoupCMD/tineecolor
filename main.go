@@ -1,13 +1,13 @@
 package tineecolor
 
-func Fred(s string) string {
+func FgRed(s string) string {
 	return "\033[31m" + s + "\033[0m"
 }
 
-func Fgreen(s string) string {
+func FgGreen(s string) string {
 	return "\033[31m" + s + "\033[0m"
 }
 
-func Fblue(s string) string {
+func FgBlue(s string) string {
 	return "\033[31m" + s + "\033[0m"
 }
