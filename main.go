@@ -5,9 +5,13 @@ func FgRed(s string) string {
 }
 
 func FgGreen(s string) string {
-	return "\033[31m" + s + "\033[0m"
+	return "\033[32m" + s + "\033[0m"
+}
+
+func FgYellow(s string) string {
+	return "\033[33m" + s + "\033[0m"
 }
 
 func FgBlue(s string) string {
-	return "\033[31m" + s + "\033[0m"
+	return "\033[34m" + s + "\033[0m"
 }
