@@ -15,3 +15,11 @@ func FgYellow(s string) string {
 func FgBlue(s string) string {
 	return "\033[34m" + s + "\033[0m"
 }
+
+func FgMagenta(s string) string {
+	return "\033[35m" + s + "\033[0m"
+}
+
+func FgCyan(s string) string {
+	return "\033[36m" + s + "\033[0m"
+}
